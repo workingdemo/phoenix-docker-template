@@ -1,4 +1,4 @@
-# Phoenix Docker Templatee
+# Phoenix Docker Template
 
 Run `docker compose bash run app` to get a bash prompt.
 
