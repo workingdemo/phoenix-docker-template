@@ -10,7 +10,6 @@ services:
     environment:
       PGUSER: postgres
       PGPASSWORD: postgres
-      PGDATABASE: dev
       PGHOST: db
       PGPORT: 5432
     depends_on:
