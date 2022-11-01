@@ -4,8 +4,9 @@ No need to install elixir, phoenix, or anything other than docker locally
 
 Steps:
 1. Download [this tarred archive](https://github.com/workingdemo/phoenix-docker-template/archive/refs/heads/main.tar.gz)
-    * unzip
-    * rename to your APP_NAME
+    * `curl -LJO https://github.com/workingdemo/phoenix-docker-template/archive/refs/heads/main.tar.gz`
+    * `tar -zxf phoenix-docker-template-main.tar.gz`
+    * `mv phoenix-docker-template-main APP_NAME`
 2. `cd` into the directory and run`docker compose bash run app` to get a bash prompt inside the docker container
 3. `mix phx.new . --umbrella --app APP_NAME` which will create a new app in the current directory
 4. `echo "/_pgdata" >> .gitignore`
