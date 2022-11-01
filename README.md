@@ -8,6 +8,8 @@ Steps:
 3. `mix phx.new . --umbrella --app APP_NAME` which will create a new app in the current directory
 4. `echo "/_pgdata" >> .gitignore`
 5. edit `config/dev.exs`
-  * change the repo hostname from `localhost` to `db`
-  * change the endpoint ip from `127.0.0.1` to `0.0.0.0`
+    * change the repo hostname from `localhost` to `db`
+    * change the endpoint ip from `127.0.0.1` to `0.0.0.0`
+
+
 Most of this was lifted from: https://elixirforum.com/t/elixir-phoenix-running-a-dev-setup-inside-docker/43269
