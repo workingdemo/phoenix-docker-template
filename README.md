@@ -3,7 +3,7 @@
 No need to install elixir, phoenix, or anything other than docker locally
 
 Steps:
-1. Download (this archive)[https://github.com/workingdemo/phoenix-docker-template/archive/refs/heads/main.zip]
+1. Download [this tarred archive](https://github.com/workingdemo/phoenix-docker-template/archive/refs/heads/main.tar.gz)
     * unzip
     * rename to your APP_NAME
 2. `cd` into the directory and run`docker compose bash run app` to get a bash prompt inside the docker container
